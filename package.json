@@ -1,0 +1,31 @@
+{
+  "name": "indoor-location-alerter",
+  "version": "1.0.0",
+  "description": "IndoorLocationAlerter using websockets to send notifications if a device enters or leaves an area",
+  "main": "app.js",
+  "dependencies": {
+    "@turf/turf": "5.1.6",
+    "async": "2.6.0",
+    "request": "2.85.0",
+    "socket.io-client": "2.0.3"
+  },
+  "engines": {
+    "node": "6.12.2",
+    "npm": "3.10.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndoorLocation/indoor-location-alerter.git"
+  },
+  "author": "Mapwize <support@mapwize.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IndoorLocation/indoor-location-alerter/issues"
+  },
+  "homepage": "https://github.com/IndoorLocation/indoor-location-alerter#readme"
+}
